@@ -17,8 +17,7 @@ pipeline
 		sh "docker build -t ${DOCKER_IMAGE} ."
 	    }
         }
-	stage('Nexus'){
-	    steps
+	    stage('Nexus'){
                 sh "docker login -u admin -p admin localhost:8082 "
 		sh "docker tag ${DOCKER_IMAGE} localhost:8082/${DOCKER_IMAGE}"
 		sh "docker push localhost:8082/${DOCKER_IMAGE}"
