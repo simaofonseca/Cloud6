@@ -13,3 +13,4 @@ Depois disto a aplicação é iniciada e deverá seguir os seguintes passos:
 3º passo: Inserir o segundo algarismo da operação a efetuar;
 
 De seguida irá aparecer o resultado da operação.
+teste
